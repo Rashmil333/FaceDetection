@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FaceRecognition from "./FaceRecognition"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FaceRecognition />
   </React.StrictMode>,
   document.getElementById('root')
 );
